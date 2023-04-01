@@ -252,7 +252,7 @@ void Game() {
 
 int main() {
 	
-	setlocale(LC_ALL, "Rus");
+	system("chcp 1251");
 
 	srand(time(NULL)); // инициализаци€ рандомайзера, использу€ текущее врем€
 
